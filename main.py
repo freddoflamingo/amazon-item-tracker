@@ -10,7 +10,9 @@ HEADERS = {
     "Accept-Language":"en-US,en;q=0.9"
 }
 
+# PLACE PRODUCT URL HERE
 PRODUCT_URL = "https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC/ref=sr_1_1?qid=1675303957&th=1"
+# PLACE PRODUCT URL HERE
 
 response = requests.get(PRODUCT_URL, headers=HEADERS)
 product_webpage = response.text
